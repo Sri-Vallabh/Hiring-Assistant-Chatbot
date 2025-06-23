@@ -106,7 +106,8 @@ if not st.session_state.tech_stacks:
         align_class = "chat-right" if is_user else "chat-left"
         bubble_class = "user-bubble" if is_user else "assistant-bubble"
         avatar_url = (
-            "https://cdn-icons-png.flaticon.com/512/456/456212.png"  # User icon
+            "https://cdn-icons-png.flaticon.com/512/9131/9131529.png"
+  # User icon
             if is_user 
             else "https://cdn-icons-png.flaticon.com/512/4712/4712109.png"  # Assistant icon
         )
@@ -143,7 +144,7 @@ if not st.session_state.info_collected:
             st.markdown(f"""
                 <div class="chat-container chat-right">
                     <div class="chat-bubble user-bubble">{escaped_prompt}</div>
-                    <img class="avatar" src="https://cdn-icons-png.flaticon.com/512/456/456212.png">
+                    <img class="avatar" src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png">
                 </div>
             """, unsafe_allow_html=True)
 
@@ -222,7 +223,7 @@ if st.session_state.tech_stack_phase and not st.session_state.show_final_message
             st.markdown(f"""
                 <div class="chat-container chat-right">
                     <div class="chat-bubble user-bubble">{escaped_prompt}</div>
-                    <img class="avatar" src="https://cdn-icons-png.flaticon.com/512/456/456212.png">
+                    <img class="avatar" src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png">
                 </div>
             """, unsafe_allow_html=True)
 
