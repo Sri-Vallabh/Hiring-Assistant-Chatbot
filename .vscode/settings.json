@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "MyDatabase",
+            "database": "talentscout_candidates.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
