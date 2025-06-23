@@ -159,7 +159,7 @@ if not st.session_state.info_collected:
         # History including system prompt
         chat_history = [
             {"role": "system", "content":
-             "You are a friendly AI hiring assistant. Conversationally collect the following information from the candidate, one at a time: full name, email address, phone number, years of experience, desired position, current location. Validate that full_name, phone should be 10 digits, and location are non-empty strings, email format is valid, and experience is a number >= 0. Once all information is collected and valid, reply ONLY with the JSON object containing all fields (keys: full_name, email, phone, experience, position, location) and the message"}
+             "You are a friendly AI hiring assistant. Conversationally collect the following information from the candidate, one at a time: full name, email address, phone number, years of experience, desired position, current location. Validate that full_name, phone should be 10 digits, and location are non-empty strings, email format is valid, and experience is a number >= 0, position should be related to a tech field, if small typos are there correct it. Once all information is collected and valid, reply ONLY with the JSON object containing all fields (keys: full_name, email, phone, experience, position, location) and the message"}
         ] + st.session_state.messages
 
         # Get LLM response
