@@ -1,12 +1,19 @@
 # TalentScout - AI Hiring Assistant
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hiring-assistant-chatbot-yvdhckkchdjcqxdmxds3ry.streamlit.app/)
+[![YouTube Demo](https://img.shields.io/badge/Demo-YouTube-red?logo=youtube)](https://youtu.be/6X_WsygSW70?si=c03lt0eEJMpIFAs1)
 
 An intelligent AI-powered hiring assistant that streamlines the recruitment process through automated candidate screening, technical assessment, and evaluation. Built with Streamlit and LangChain, TalentScout provides a conversational interface for conducting initial candidate interviews and technical evaluations.
 
 ## 🌐 Live Demo
 
-The application is deployed and accessible at: **https://hiring-assistant-chatbot-yvdhckkchdjcqxdmxds3ry.streamlit.app/**
+The application is deployed and accessible at:  
+**https://hiring-assistant-chatbot-yvdhckkchdjcqxdmxds3ry.streamlit.app/**
+
+## 📺 Watch the Demo Video
+
+YouTube:  
+**https://youtu.be/6X_WsygSW70?si=c03lt0eEJMpIFAs1**
 
 ## 🚀 Project Overview
 
